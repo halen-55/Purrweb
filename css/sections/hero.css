@@ -1,0 +1,33 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0px 0 100px 110px;
+}
+
+.hero-left {
+  max-width: 671px;
+}
+
+.hero-left__text {
+  max-width: 534px;
+  margin-bottom: 40px;
+}
+
+.hero-right {
+  position: relative;
+  overflow: hidden;
+  max-width: 500px;
+  padding-right: 80px;
+}
+
+.hero-right__gerl {
+  padding-left: 40px;
+}
+
+.hero-right__lolipop {
+  position: absolute;
+  max-width: 150%;
+  transform: translate(-56%, 2%);
+  z-index: -1;
+}

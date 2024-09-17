@@ -1,0 +1,25 @@
+/* Обертки */
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    /* border: 2px solid green; */
+}
+
+/* .flex-wrapper {
+
+} 
+
+.flex-aic-sb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+/* .wrapper{
+
+}
+
+.holder{
+
+} */

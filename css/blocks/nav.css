@@ -1,0 +1,41 @@
+.nav {
+  font-size: 16;
+  font-family: "Outfit-Medium";
+}
+
+.nav--padding{
+  padding-left: 60px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list__link {
+  padding: 9px 40px;
+}
+
+.nav-list__link--black {
+  background-color: var(--dark-brown);
+  border-radius: 20px 20px 0px 0px;
+}
+
+.list-link--font-black {
+  color: var(--black);
+}
+
+.list-link--font-black:link {
+  color: var(--black);
+}
+
+.list-link--font-black:visited {
+  color: var(--black);
+}
+
+.nav-list__link--short {
+  padding: 10px 20px;
+}
+
+.nav-list__link--none {
+  display: none;
+}

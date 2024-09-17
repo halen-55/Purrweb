@@ -1,0 +1,91 @@
+/* BURGER BTN */
+.burger-btn {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 100;
+    align-items: center;
+    width: 24px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.burger-btn__line {
+    height: 2px;
+    width: 100%;
+    transform: scale(1);
+    background-color: white;
+}
+
+.burger-btn::before,
+.burger-btn::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.burger-btn::before {
+    top: 0;
+}
+
+.burger-btn::after {
+    bottom: 0;
+}
+
+/* обращение к равнозначному классу .active */
+.burger-btn.active .burger-btn__line {
+    transform: scale(0);
+}
+
+.burger-btn.active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+
+.burger-btn.active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+
+/* BURGER MENU*/
+.burger-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark-brown);
+    padding: 16px;
+    z-index: 20;
+    animation: bugerAnimation 0.4s;
+}
+
+.burger-menu--font-size {
+    font-size: 20px;
+}
+
+.burger-menu__btn {
+    max-width: 763px;
+    width: 100%;
+    margin-top: 125px;
+    margin-bottom: 177px;
+}
+
+.nav-list--burger-column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+@keyframes bugerAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

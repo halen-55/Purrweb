@@ -1,0 +1,23 @@
+.btn-white {
+    color: var(--black);
+    background-color: var(--white);
+    border: 2px solid var(--blue-purpl-2);
+}
+
+.btn:hover {
+    background: var(--dark-brown);
+    color: var(--white);
+}
+
+.btn:focus {
+    background: var(--blue-purpl-2);
+    border: 2px solid var(--light-purp);
+    padding: 14px 28px;
+    color: var(--white);
+}
+
+.btn:active {
+    background: var(--purpl);
+    padding: 14px 28px;
+    border: 2px solid var(--purpl);
+}

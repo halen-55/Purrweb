@@ -1,0 +1,8 @@
+.button-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    max-width: 26px;
+    cursor: pointer;
+    z-index: 100;
+}

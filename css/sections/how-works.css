@@ -1,0 +1,92 @@
+.how-works {
+  padding: 146px 0px;
+  position: relative;
+}
+
+@keyframes ticker--right {
+  100% {
+    transform: translateX(0);
+  }
+
+  0% {
+    transform: translateX(-50%);
+  }
+}
+
+.ticker {
+  position: relative;
+  overflow: hidden;
+}
+
+.ticker__items--1 {
+  margin-left: -300px;
+}
+
+.ticker__items--2 {
+  margin-left: -100px;
+}
+
+.ticker__items--3 {
+  margin-left: -540px;
+}
+
+.ticker__items {
+  display: flex;
+  width: fit-content;
+}
+
+.ticker__items--right {
+  animation: ticker--right 20s linear infinite;
+  /* -webkit-transform-style: preserve-3d; Фикс возможного глюка с морганием в Сафари */
+}
+
+.ticker__item {
+  font-family: "Outfit-Bold";
+  color: var(--dark-brown);
+  font-size: 128px;
+  padding: 20px 10px;
+  white-space: nowrap;
+}
+
+.ticker__item--grey {
+  -webkit-text-stroke: 2px var(--grey);
+}
+
+.ticker__item--turquoise {
+  color: var(--turquoise);
+}
+
+@keyframes ticker--left {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.ticker__items--left {
+  animation: ticker--left 20s linear infinite;
+  /* -webkit-transform-style: preserve-3d; Фикс возможного глюка с морганием в Сафари */
+}
+
+.ticker__item--crimson {
+  color: var(--blue-purpl);
+  ;
+}
+
+.ticker__item--white {
+  -webkit-text-stroke: 2px var(--white);
+}
+
+.ticker__item--carrot {
+  color: var(--carrot);
+}
+
+.how-works__phone {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}

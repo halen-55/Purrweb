@@ -1,0 +1,32 @@
+.statistics {
+  background-color: var(--blue-purpl-2);
+}
+
+.statistics__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 40px 0;
+  margin-bottom: 100px;
+}
+ 
+.statistics-item {
+  max-width: 217px;
+} 
+  
+.statistics-item__title {
+  font-family: "Outfit-Bold";
+  font-size: 64px;
+  padding-bottom: 16px;
+}
+
+.statistics-item__text {
+  font-family: "Outfit-SemiBold";
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.statistics-item__text--min-width {
+  max-width: 163px;
+}

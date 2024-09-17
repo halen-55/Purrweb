@@ -1,0 +1,40 @@
+/* FOOTER */
+.footer__wrapper {
+  margin: 40px 60px 0px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid var(--grey);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.padding-right {
+  padding-right: 128px;
+}
+
+.download {
+  display: flex;
+  gap: 20px;
+}
+
+/* FOOTER BOTTOM */
+.footer-bottom {
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom__link {
+  font-family: "Outfit-Light";
+  font-size: 14px;
+  color: var(--light-grey);
+}
+
+.footer-bottom__links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-bottom__link--underline {
+  border-bottom: 1px solid var(--light-grey-2);
+}

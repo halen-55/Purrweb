@@ -1,0 +1,79 @@
+.about {
+  position: relative;
+  overflow: hidden;
+}
+
+.about__title {
+  margin-left: 60px;
+  margin-bottom: 80px;
+}
+
+.about-wrapper {
+  display: flex;
+  gap: 118px;
+  margin-bottom: 36px;
+}
+
+.about__text {
+  position: relative;
+  margin-left: 60px;
+  font-family: "Outfit-SemiBold";
+  font-size: 36px;
+}
+
+.about__text::after {
+  content: '';
+  position: absolute;
+  width: 355px;
+  height: 45px;
+  border-radius: 25px;
+  background-color: var(--blue-purpl);
+  rotate: -1deg;
+  transform: translate(16%, -79%);
+  z-index: -1;
+}
+
+.about-container {
+  max-width: 457px;
+  z-index: -1;
+}
+
+/* .about-decorative {
+    position: relative;
+  
+} */
+
+.about-decorative__lollipop1 {
+  position: absolute;
+  transform: translate(-55%, 29%);
+}
+
+.about-decorative__lollipop2 {
+  position: absolute;
+  transform: translate(-24%, 89%);
+}
+
+.about__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+
+.about-card {
+  max-width: 350px;
+}
+
+.about-card__img {
+  margin-bottom: 10px;
+}
+
+.about-card__title {
+  font-family: "Outfit-Bold";
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.about-card__text {
+  font-family: "Outfit-Regular";
+  font-size: 24px;
+}

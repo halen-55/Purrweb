@@ -1,0 +1,32 @@
+.success {
+    color: var(--black);
+    background-color: var(--white);
+    max-width: 417px;
+    border-radius: 20px;
+    padding: 40px 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    z-index: 100;
+}
+
+.success__title {
+    font-family: "Outfit-SemiBold";
+    font-size: 36px;
+    color: var(--blue-purpl);
+}
+
+.success__text {
+    font-family: "Outfit-Regular";
+    font-size: 24px;
+    text-align: center;
+}
+
+.success__btn {
+    width: 100%;
+}
